@@ -397,6 +397,7 @@
                  sampleRate="8000"
                  channels="1" />
         </EncoderProfile>
+>>>>>>> 78f6fde... whyred: Import camera changes
 
         <!-- TIMELAPSE profiles for front camera -->
         <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
