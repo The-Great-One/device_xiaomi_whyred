@@ -302,12 +302,12 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service
 
 #Lawnchair
-PRODUCT_PACKAGES += \
-    Lawnchair
+#PRODUCT_PACKAGES += \
+#    Lawnchair
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilts/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
-    $(LOCAL_PATH)/prebuilts/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/prebuilts/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
+#    $(LOCAL_PATH)/prebuilts/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
 
 # Lights
 PRODUCT_PACKAGES += \
